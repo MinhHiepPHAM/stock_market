@@ -1,0 +1,47 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style: none;
+}
+  
+.navLink {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+
+.navLink:hover {
+    background-color: #4494df;
+    padding: 10px;
+    border-radius: 8px;
+
+}
+
+.navbar {
+    background-color: #0e69b7;
+    padding: 10px 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+    min-height: 70px;
+}
+  
+  /* ul  */
+.navMenu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+}
+
+.navHome {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px; 
+}

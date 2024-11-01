@@ -1,0 +1,71 @@
+.table-container {
+    max-width: 1800px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  
+.title {
+    font-size: 26px;
+    margin: 20px 0;
+    text-align: center;
+    color: #0d37aa;
+    small {
+        font-size: 16px;
+        font-style: normal;
+    }
+}
+  
+.responsive-table {
+    li {
+        border-radius: 3px;
+        padding: 10px 10px;
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 2px;
+    }
+    .table-header {
+        background-color: #e1e6f3;
+        font-size: 14px;
+        text-transform: uppercase;
+        color: #1d1b1b;
+        font-weight: bold;
+        padding: 20px 20px;
+        /* letter-spacing: 0.03em; */
+    }
+    .table-row {
+        background-color: white;
+        box-shadow: 0px 0px 0px 0.5px rgba(0, 0, 0, 0.1);
+    }
+    
+    .table-row:hover {
+        background-color: #ebeef7;
+    }
+    .col-symbol {
+        flex-basis: 5%;
+    }
+    .col-company {
+        flex-basis: 25%;
+    }
+    .col-country {
+      flex-basis: 10%;
+    }
+    .col-sector {
+        flex-basis: 15%;
+    }
+
+    .col-industry {
+        flex-basis: 15%;
+    }
+    .col-open {
+        flex-basis: 10%;
+    }
+    .col-close {
+        flex-basis: 10%;
+    }
+    .col-volume {
+        flex-basis: 10%;
+    }
+}
+  
