@@ -1,4 +1,4 @@
-* The stock price has the following pages:
+* The stock market app has the following pages:
    - Home page contains the pagignation of info of more than 4000 tickers (ticker name, company, country, industry, prices). You can search the ticker by ticker name, industry, company, industry or its sector.
    - Trending page shows the ticker trending scrapped from yahoo finance website.
    - Ticker page includes the related news, volume and price changing charts.
